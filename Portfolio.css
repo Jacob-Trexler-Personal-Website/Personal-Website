@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.urmom header {
+    padding: 0 20px;
+}
+
+.urmom footer,
+.hg-sidebar,
+.body {
+    padding: 20px;
+}
+
+.urmom header {
+    background-color: blueviolet;
+}
+
+.urmom footer {
+    background-color: blueviolet;
+}
+
+
+.body {
+    background-color: darkgreen;
+}
+
+h1 {
+    margin: 0;
+    background-color: fuchsia;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.urmom {
+    min-height: 100vh;
+}
+
+.urmom,
+.body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+.media-link{
+    height: 100px;
+    width: 100px;
+}
+.footer {
+    box-sizing: border-box;
+}
