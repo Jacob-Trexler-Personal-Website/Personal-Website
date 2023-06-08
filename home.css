@@ -1,70 +1,75 @@
+
 * {
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav {
+    display: block;
 }
 
-html, body {
-    margin: 0;
-    font-size: 1.1em;
+header {
+    background: white;
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+    
+}
+.links, .tabs {
+    display: flex;
+    color: rgb(87, 23, 148);
+    padding-left: 10px;
+    justify-content: right;
+}
+
+.name {
+    float: left;
+    width: fit-content;
+}
+h1{
+    padding-top: 5px;
     text-align: center;
-}
-
-.urmom header {
-    padding: 0 20px;
-}
-
-.urmom footer,
-.hg-sidebar,
-.bodycontent {
-    padding: 150px;
-}
-
-.urmom header {
-    background-color: blueviolet;
-}
-
-.urmom footer {
-    background-color: blueviolet;
-}
-
-.hg-sidebar {
     background-color: chartreuse;
 }
-
-.bodycontent {
-    background-color: darkgreen;
+body {
+    background-color: rgb(109, 175, 196);
+    max-width: 960px;
+    color: black;
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
-
-h1 {
-    margin: 0;
-    background-color: fuchsia;
+body {
+    display: block;
 }
-
-.nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.body {
+    min-height: 50vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
 }
-
-
-.urmom {
-    min-height: 100vh;
-}
-
-.urmom,
-.bodycontent {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
+.body {
+    display: block;
 }
 .media-link{
     height: 80px;
     width: 80px;
 }
-.footer {
+footer {
     box-sizing: border-box;
+    position: fixed;
+    height: 90px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
-    align-items: center;
-    padding: 15;
-    height: 70px;
+    text-align: center;
+    padding: 15px;
+    background: white;
+}
+
+footer {
+    display: block;
 }
